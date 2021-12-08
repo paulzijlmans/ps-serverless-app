@@ -28,3 +28,5 @@ infrastructure/cdk.out
 # React
 webapp/public/config.json
 webapp/build
+
+aws_keys

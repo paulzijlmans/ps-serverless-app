@@ -10,6 +10,8 @@ export class ApplicationStack extends cdk.Stack {
 
     new WebApp(this, 'WebApp', {
       hostingBucket: storage.hostingBucket,
+      baseDirectory: '../',
+      relativeWebAppPath: 'webapp',
     });
   }
 }

@@ -29,4 +29,4 @@ infrastructure/cdk.out
 webapp/public/config.json
 webapp/build
 
-aws_keys
+.config

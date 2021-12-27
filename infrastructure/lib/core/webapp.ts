@@ -8,7 +8,7 @@ interface WebAppProps {
   hostingBucket: s3.IBucket;
   relativeWebAppPath: string;
   baseDirectory: string;
-  httpApi:apigw.IHttpApi;
+  httpApi: apigw.IHttpApi;
 }
 
 export class WebApp extends cdk.Construct {
